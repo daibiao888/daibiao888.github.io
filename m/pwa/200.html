@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="/m/pwa/spinner.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link href="/m/pwa/_app/immutable/entry/start.B_f7sh2l.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/D8R_4R9N.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/BxUdUJ2E.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/entry/app.CQdu22N8.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/PPVm8Dsz.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/DsnmJJEf.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/CoaYsFIU.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/he6idRF-.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/D3ib3AMm.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/nodes/0.B0iDKbbq.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/DnzSpSEm.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/ud8grvJM.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/C8TOkgyS.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/7dUvxPzo.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/CfaHBESR.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/DytdxdCv.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/CCpfvOZ-.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/Bysy2mzt.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/BmcDfHxi.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/DD1mNDYm.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/CZZUiQG5.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/DfCyRt_e.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/DlX8S1Ky.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/Xu10d4aY.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/DXmWalfV.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/BAKK5D-L.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/EgJd3ViG.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/CLIcOmCk.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/CY0-tqfo.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/BxZfEQhW.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/DtBGN90m.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/DUHAqalr.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/BhNr8NUX.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/yLsvGaHd.js" rel="modulepreload">
+		<link href="/m/pwa/_app/immutable/chunks/BtnWC6Xb.js" rel="modulepreload">
+		
+		<link href="/m/pwa/_app/immutable/assets/Slider.BlwRGevR.css" rel="stylesheet">
+		<link href="/m/pwa/_app/immutable/assets/TextAppearanceSelector.C8MoyrvZ.css" rel="stylesheet">
+		<link href="/m/pwa/_app/immutable/assets/0.BHr1JFFO.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <span class="spin" id="loading-spinner"></span>
+        <div>
+			<script>
+				{
+					__sveltekit_194vsl1 = {
+						base: new URL('.', location).pathname.slice(0, -1),
+						assets: "/m/pwa"
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/m/pwa/_app/immutable/entry/start.B_f7sh2l.js"),
+						import("/m/pwa/_app/immutable/entry/app.CQdu22N8.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+
+					if ('serviceWorker' in navigator) {
+						const script_url = '/m/pwa/service-worker.js';
+						const policy = globalThis?.window?.trustedTypes?.createPolicy(
+							'sveltekit-trusted-url',
+							{ createScriptURL(url) { return url; } }
+						);
+						const sanitised = policy?.createScriptURL(script_url) ?? script_url;
+						addEventListener('load', function () {
+							navigator.serviceWorker.register(sanitised, {"scope":"/m/pwa/"});
+						});
+					}
+				}
+			</script>
+		</div>
+    </body>
+</html>
