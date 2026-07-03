@@ -1,8 +1,8 @@
 {
   "name": "\u5927\u82b1\u82d7\u5723\u7ecf",
   "short_name": "\u5927\u82b1\u82d7\u5723\u7ecf",
-  "start_url" : "/m/pwa/",
-  "scope" : "/m/pwa/",
+  "start_url" : "https://daibiao888.github.io/m/pwa/",
+  "scope" : "https://daibiao888.github.io/m/pwa/",
   "display": "standalone",
   "description": "",
   "dir": "ltr",
